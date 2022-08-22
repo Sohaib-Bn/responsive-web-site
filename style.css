@@ -1,0 +1,476 @@
+h6 {
+    color: 
+    hsl(171, 66%, 44%)
+    hsl(233, 100%, 69%)
+    hsl(210, 10%, 33%)
+    hsl(201, 11%, 66%)
+    ;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5 {
+    color: hsl(210, 10%, 33%);
+    font-weight: 600;
+}
+
+p {
+    color: hsl(201, 11%, 66%);
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.bg-header-mobile {
+    display: none;
+}
+
+.bg-header-desktop {
+    position: absolute;
+    width: 100%;
+
+}
+
+.top-section {
+    padding: 10% 10% 5% 10%;
+    text-align: center;
+}
+
+.logo-top {
+    margin-bottom: 5%;
+}
+
+.title-one {
+    font-size: 2.5rem;
+    margin-bottom: 1.5%;
+}
+
+.par-one {
+    padding: 0 190px;
+    font-size: 1.1rem;
+    margin-bottom: 4%;
+}
+
+.btns-top {
+    margin-bottom: 12%;
+}
+
+.btn-one {
+    background: hsl(171, 66%, 44%);
+    border-radius: 100px;
+    color: #FFFFFF;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 13px 32px 9px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    box-shadow: 0 3px 0 #209F89 ,0 11px 25px #bbf4eb ;
+    
+    
+}
+ 
+ .btn-one:hover {
+    background: #5DCCBB;
+    border-radius: 100px;
+    text-decoration: none;
+    box-shadow: 0 3px 0 #56B8A7,0 11px 25px #a4f2e5;
+    transition: all 0.3s ease-in-out;
+ }
+ 
+
+ .btn-two {
+    margin-left: 15px;
+    font-family: 'Bai Jamjuree', sans-serif;
+    background: #6174FF;
+    border-radius: 100px;
+    color: #FFFFFF;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 13px 32px 9px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    box-shadow: 0 3px 0 #5162DA,0 11px 25px #d1d5fb ;
+ }
+ 
+ .btn-two:hover {
+    background: #8896FF;
+    border-radius: 100px;
+    text-decoration: none;
+    box-shadow: 0 3px 0 #7D88E3, 0 11px 25px #a2abea;
+    transition: all 0.5s ease-in-out;
+ }
+
+ .title-two {
+    font-size: 1.9rem;
+    margin-bottom: 1.5%;
+}
+
+.par-two {
+    padding: 0 190px;
+    font-size: 0.9rem;
+    margin-bottom: 4%;
+}
+
+.apple {
+    width: 730px;
+    position: relative;
+    right: 120px;
+    float: left;
+    margin-right: 0px;
+
+}
+ 
+.right-com {
+    padding-top: 70px;
+}
+
+.min-par {
+    margin-bottom: 40px;
+    padding-right: 150px;
+}
+
+.mini-title {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.mini-par {
+    font-size: 0.9rem;
+}
+
+.devises {
+    padding-top: 200px;
+    text-align: center;
+}
+
+.title-three {
+    font-size: 1.9rem;
+    margin-bottom: 1.5%;
+}
+
+.par-three {
+    padding: 0 320px;
+    font-size: 0.9rem;
+    margin-bottom: 4%;
+}
+
+.tablet {
+    width: 800px;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+.workflow {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.title-for {
+    font-size: 1.9rem;
+    margin-bottom: 1.5%;
+}
+
+.par-for {
+    padding: 0 320px;
+    font-size: 0.9rem;
+    margin-bottom: 5%;
+}
+
+.container-fluid {
+    padding: 0 50px;
+    text-align: center;
+    margin-bottom: 15%;
+}
+
+.icon {
+    margin-bottom: 40px;
+}
+
+.prop-title {
+    margin-bottom: 10px;
+    font-size: 1.45rem;
+    margin-bottom: 15px;
+}
+
+.prop-par {
+    margin: auto;
+    line-height: 1.8;
+    width: 85%;
+    font-size: 0.9rem;
+}
+
+.logo-section {
+    padding: 0 50px;
+    margin-bottom: 15%;
+
+}
+
+.logo {
+    margin-right: 60px;
+}
+
+.logo-dwon {
+    margin-right: 0px;
+}
+
+.download-section {
+    text-align: center;
+    margin-bottom: 15%;
+}
+
+.title-five {
+    margin-bottom: 20px;
+    font-size: 1.9rem;
+}
+
+.par-five {
+    padding: 0 270px;
+    font-size: 0.9rem;
+    margin-bottom: 4%;
+}
+
+.bottom-section {
+    position: relative;
+    background-color: #F5F6F8;
+    padding: 4% 13%;
+}
+
+#href {
+    text-decoration: none;
+    display: block;
+    color: hsl(210, 10%, 33%);
+    margin-bottom: 17%;
+    font-size: 1rem;
+}
+
+#href:hover {
+    color: #5DCCBB;
+    transition: all .2s;
+}
+
+.flex {
+    display: inline-block;
+    margin-right: 8%;
+
+}
+
+.logo-bottom {
+    width: 53px;
+    margin-right: 15%;
+    position: relative;
+    bottom: 15px;
+}
+
+    /* .three {
+        margin-right: 10%;
+    } */
+
+.link-three {
+    position: relative;
+    bottom: 39px;
+}
+
+#href-icon {
+    margin-right: 15px;
+}
+
+.svg-ico:hover {
+    color: #5DCCBB;
+}
+
+.icons {
+    padding-top: 20px;
+    display: inline-block;
+    margin-left: 20%;
+    vertical-align: top;
+    cursor: pointer;
+}
+
+@media (max-width:1230px) ,(min-width:901px) {
+
+     .apple {
+        width: 575px;
+    }
+
+    .guid {
+        margin-right: 0;
+    }
+}
+
+@media (max-width:900px) {
+
+    .bg-header-desktop {
+        display: none;
+    }
+
+    .bg-header-mobile {
+        display: inline;
+        position: absolute;
+        width: 100%;
+    }
+
+    .top-section {
+        padding: 32% 3% 3% 5%;
+    }
+
+    .logo-top {
+        margin-bottom: 18%;
+    }
+
+    .title-one {
+    font-size: 2rem;
+    padding: 0 5%;
+    margin-bottom: 7%;
+   }
+
+   .par-one {
+    padding: 0%;
+    font-size: 1rem;
+    margin-bottom: 13%;
+    }
+
+    .btn-one {
+        padding-right: 80px;
+        padding-left: 80px;
+        margin-bottom: 7%;
+    }
+
+    .btn-two {
+        padding-right: 80px;
+        padding-left: 80px;
+        margin-bottom: 30%;
+    }
+
+    .title-two {
+        font-size: 2rem;
+        margin-bottom: 7%;
+    }
+
+    .par-two {
+        padding: 0%;
+        font-size: 1rem;
+        margin-bottom: 20%;
+    }
+
+    .computer {
+        text-align: center;
+    }
+
+    .apple {
+        float: none;
+        margin: auto;
+        right: 0;
+        width: 320px;
+    }
+
+    .min-par {
+        padding: 0 50px;
+    }
+
+    .mini-par {
+        font-size: 1rem;
+    }
+
+    .devises {
+        padding-top: 150px;
+    }
+
+    .title-three {
+        margin-bottom: 7%;
+        padding: 0 20px;
+    }
+
+    .par-three {
+        padding: 0 20px;
+    }
+
+    .tablet {
+        width: 350px;
+        margin-bottom: 100px;
+    }
+
+    .par-for {
+        margin-top: 5%;
+        padding: 0 60px;
+    }
+
+    .workflow {
+        margin-bottom: 100px;
+    }
+    
+    .prop {
+        margin-bottom: 15%;
+    }
+
+    .logo-section {
+        text-align: center;
+        margin: 0 auto 45%;
+    }
+
+    .logo {
+        margin: 0 auto 25%;
+        display: block;
+    }
+
+    .title-five {
+        padding: 0 20px;
+    }
+
+    .par-five {
+        padding: 0 40px;
+        font-size: 1rem;
+        margin-bottom: 20%;
+    }
+
+    .bottom-section {
+        text-align: center;
+        padding: 13%;
+    }
+
+    .flex {
+        display: inline;
+        margin-right: 0;
+    }
+
+    #href {
+        margin-bottom: 8%;
+    }
+
+    .logo-bottom {
+        margin-right: 0;
+        margin-bottom: 13%;
+        bottom: 0%;
+    }
+
+    .link-three {
+        bottom: 0;
+    }
+
+    .icons {
+        padding-top: 15px;
+    }
+
+    #href-icon {
+     margin-right: 25px;
+    }
+
+
+}
+
